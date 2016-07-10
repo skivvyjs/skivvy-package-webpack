@@ -37,5 +37,13 @@
     "rewire": "^2.5.1",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skivvyjs/skivvy-package-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skivvyjs/skivvy-package-webpack/issues"
+  },
+  "homepage": "https://github.com/skivvyjs/skivvy-package-webpack#readme"
 }
