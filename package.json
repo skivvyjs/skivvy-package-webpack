@@ -23,8 +23,10 @@
   "author": "Tim Kendrick <timkendrick@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "lodash.merge": "^4.4.0",
-    "webpack": "^1.13.0"
+    "lodash.merge": "^4.4.0"
+  },
+  "peerDependencies": {
+    "webpack": "1.x"
   },
   "devDependencies": {
     "@skivvy/project-base": "^1.0.0",
