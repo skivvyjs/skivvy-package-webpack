@@ -122,12 +122,6 @@ describe('task:webpack', function() {
 		}
 	}
 
-	function createMockFs() {
-		return mockFs({}, {
-
-		});
-	}
-
 	it('should have a description', function() {
 		expect(task.description).to.be.a('string');
 	});
