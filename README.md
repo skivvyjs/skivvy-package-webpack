@@ -39,3 +39,5 @@ The `webpack` task accepts all the standard [webpack configuration settings](htt
 | ---- | ---- | -------- | ------- | ----------- |
 | `watch` | `boolean` | No | `false` | Watch files for changes |
 | `config` | `string` | No | `null` | Path to external `webpack.config.js` |
+
+N.B. Additional task settings will override the corresponding values in the `webpack.config.js` file
