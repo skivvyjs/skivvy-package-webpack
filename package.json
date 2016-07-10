@@ -1,0 +1,39 @@
+{
+  "name": "@skivvy/skivvy-package-webpack",
+  "version": "0.0.1",
+  "description": "Compile JavaScript using webpack",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "test"
+  ],
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "skivvy-package",
+    "webpack"
+  ],
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.merge": "^4.4.0",
+    "webpack": "^1.13.0"
+  },
+  "devDependencies": {
+    "@skivvy/project-base": "^1.0.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "eslint": "latest",
+    "mocha": "^2.0.0",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
