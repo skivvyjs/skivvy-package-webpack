@@ -244,4 +244,30 @@ describe('task:webpack', function() {
 			done();
 		});
 	});
+
+	it('should allow relative path to config file', function(done) {
+		var configPath = path.resolve(__dirname, '../fixtures/webpack.config.js');
+		var relativeConfigPath = './' + path.relative(process.cwd(), configPath);
+		task.call(mockApi, {
+			entry: 'index.js',
+			output: {
+				filename: 'main.js',
+				path: './dist'
+			},
+			config: relativeConfigPath
+		}, function(error, stats) {
+			expect(error).not.to.exist;
+			expect(stats).to.exist;
+			expect(mockWebpack).to.have.been.calledOnce;
+			expect(mockWebpack).to.have.been.calledWith({
+				entry: 'index.js',
+				output: {
+					filename: 'main.js',
+					path: './dist'
+				},
+				custom: true
+			});
+			done();
+		});
+	});
 });
