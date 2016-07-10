@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@skivvy/skivvy-package-webpack.svg)](https://www.npmjs.com/package/@skivvy/skivvy-package-webpack)
 ![Stability](https://img.shields.io/badge/stability-stable-brightgreen.svg)
+[![Build Status](https://travis-ci.org/skivvyjs/skivvy-package-webpack.svg?branch=master)](https://travis-ci.org/skivvyjs/skivvy-package-webpack)
 
 > Compile JavaScript using webpack
 
