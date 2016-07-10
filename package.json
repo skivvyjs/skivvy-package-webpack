@@ -1,6 +1,6 @@
 {
   "name": "@skivvy/skivvy-package-webpack",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Compile JavaScript using webpack",
   "main": "index.js",
   "directories": {
